@@ -1,0 +1,55 @@
+a:link{color:black;text-decoration: none;}
+a:visited{color:black;text-decoration: none;}
+a:hover{color:white;text-decoration: line-through;}
+
+@font-face{
+	font-family: RubikBeastly;
+	src: url(../assets/fonts/RubikBeastly-Regular.ttf);
+}
+
+h1{
+	font-family: RubikBeastly;
+	font-size:200px;
+	letter-spacing: 20px;
+	text-align: center;
+}
+
+/*#violence{
+	height:100px;
+	background-image: linear-gradient(#A4050F, #F2A81D, #410104);
+}*/
+
+body{
+	margin:0;
+	background-image: linear-gradient(#A4050F, #F2A81D, #410104);
+	/*background-color: #ff002b;*/
+}
+
+#virgil{
+  position:sticky;
+  bottom:0;
+  top:0;
+  width:30%;
+  left:10px;
+  display:block;
+  z-index: 1;
+}
+
+p{
+  width:35%;
+  text-align: right;
+  color:white;
+  margin-left: auto;
+  font-family: monospace;
+  font-size:25px;
+  padding:30px;
+  z-index: 0;
+  cursor:help;
+}
+
+.img{
+	width:20%;
+  	left:400px;
+  	position: relative;
+  	cursor:help;
+}

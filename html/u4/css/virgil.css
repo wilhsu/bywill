@@ -1,0 +1,37 @@
+a:link{color:#ff3399;text-decoration: none;}
+a:visited{color:#ff3399;text-decoration: none;}
+a:hover{color:white;text-decoration: line-through;}
+
+@font-face{
+	font-family: Unifraktur;
+	src: url(../assets/fonts/UnifrakturMaguntia-Regular.ttf);
+}
+
+body{
+	background-color: black;
+	color:white;
+	background-image: radial-gradient(black 10%,#ff3399 15%,black 30%);
+}
+
+
+#virgil{
+	position:sticky;
+	top:0;
+	width:45%;
+	height:45%;
+	z-index: 5;
+	display:block;
+}
+
+
+p{
+	font-family: monospace;
+	width:700px;
+	font-size: 35px;
+	display:block;
+	margin-left: auto;
+	text-align: right;
+	margin-top: 50px;
+	padding:20px;
+	z-index:0;
+}

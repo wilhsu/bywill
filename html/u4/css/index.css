@@ -1,0 +1,85 @@
+a:link{color:#ff5d8f;text-decoration: none;}
+a:visited{color:#ff5d8f;text-decoration: none;}
+a:hover{color:white;text-decoration: line-through;}
+
+@font-face{
+  font-family: Unifraktur;
+  src: url(../assets/fonts/UnifrakturMaguntia-Regular.ttf);
+}
+
+body{
+  background-color: black;
+  background-image: url(../assets/img/flames.png);
+  background-size: 100vw 160vh;
+}
+
+h1{
+  font-family: Unifraktur;
+  text-align: center;
+  font-size:250px;
+  color:#ff5d8f;
+  padding:20px;
+  text-shadow: 0 0 50px #FFffff, 0 0 10px #590d22;
+  margin:2px;
+}
+
+p{
+  width:45%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 28px;
+  color:white;
+  font-family: monospace;
+}
+
+.demons{
+  width:15%;
+  position: relative;
+  margin:0;
+}
+
+#demon1{
+  animation: demonone 3s infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+#demon2{
+  animation: demontwo 1s infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+#demon3{
+  animation: demonthree 5s infinite;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+}
+
+#demon4{
+  animation: demonfour 3s infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes demonone{
+  from {left: 250px; top:200px;}
+  to {left: 100px; top:200px;}
+}
+
+@keyframes demontwo{
+  from {top: 0px; left:750px;}
+  to {top: 50px; left:750px;}
+}
+
+@keyframes demonthree{
+  from {top: 0px; left:700px;}
+  to {top: 70px; left:700px;}
+}
+
+@keyframes demonfour{
+  from {top: 0px; left:-500px;}
+  to {top: 70px; left:-500px;}
+}

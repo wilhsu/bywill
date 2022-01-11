@@ -1,0 +1,117 @@
+a:link{color:#d90368;text-decoration: none;}
+a:visited{color:#d90368;text-decoration: none;}
+a:hover{color:#d90368;text-decoration:underline;}
+
+@font-face{
+	font-family: excelorate;
+	src: url(../assets/fonts/Excelorate-Font.otf);
+}
+
+@font-face{
+	font-family: start2p;
+	src: url(../assets/fonts/PressStart2P-Regular.ttf);
+}
+
+.container{
+	display: flex;
+    justify-content: center;
+    flex:1;
+}
+
+body{
+	background-color: #FFC4D6;
+	margin:0;
+	cursor: url('assets/cursor.cur'), auto;
+}
+
+p{
+	font-size:17px;
+}
+
+h1{
+	font-family: excelorate;
+	font-size: 120px;
+	color:#d90368;
+	position:relative;
+	padding-right: 80px;
+	text-align: right;
+	text-shadow: 4px 5px 6px white;
+}
+
+.title{
+	order:2;
+	flex-basis: 80%
+}
+
+.icon{
+	flex-basis: 20%;
+	order:1;
+	display: block;
+	position: relative;
+
+	animation: icon 2s infinite;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+}
+
+@keyframes icon{
+	0% {top:10px;}
+	50% {top:20px;}
+	100% {top:10px;}
+}
+
+img{
+	max-width: 100%;
+	border-radius: 15px;
+	margin:15px;
+	float:left;
+}
+
+ul {
+  list-style-type: none;
+  position:sticky;
+  display: block;
+  margin: 15px;
+  padding: 25px;
+  width: 270px;
+  top:0;
+  left:0;
+  background-color: #ffe0e9;
+  border-radius: 15px;
+  font-family:start2p ;
+  font-size: 20px;
+  line-height: 1.5;
+  border:7px solid #d90368;
+}
+
+li a {
+  display: block;
+  color: #d90368;
+  padding:10px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #d90368;
+  color: white;
+  padding: 10px;
+}
+
+li a:hover:not(.active) {
+  background-color: #ff7aa2;
+  color: white;
+}
+
+.maintext{
+	background-color: #f564a9;
+	font-family: Arial, sans-serif;
+	padding:25px;
+	margin: 15px;
+	border:7px solid #d90368;
+	border-radius: 15px;
+	color: white;
+}
+
+.example{
+	width:30%;
+}

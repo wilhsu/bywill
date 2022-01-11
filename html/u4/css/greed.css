@@ -1,0 +1,91 @@
+a:link{color:#ffd166;text-decoration: none;}
+a:visited{color:#ffd166;text-decoration: none;}
+a:hover{color:white;text-decoration: line-through;}
+
+@font-face{
+	font-family:BerkshireSwash;
+	src: url(../assets/fonts/BerkshireSwash-Regular.ttf);
+}
+
+h1{
+	font-family: BerkshireSwash;
+	font-size:200px;
+	text-align: center;
+	color: #ffd166;
+}
+
+body{
+	margin: 0;
+	background-color:#304c89;
+}
+
+#virgil{
+  position:sticky;
+  bottom:0;
+  top:0;
+  width:30%;
+  left:10px;
+  display:block;
+  z-index: 1;
+}
+
+p{
+  width:35%;
+  text-align: right;
+  color:white;
+  margin-left: auto;
+  font-family: monospace;
+  font-size:25px;
+  padding:30px;
+  z-index: 0;
+  cursor:help;
+}
+
+.img{
+	width:30%;
+  	left:450px;
+  	position: relative;
+  	cursor:help;
+  	animation-timing-function: linear;
+ 	animation-direction: alternate;
+}
+
+#soul1{
+	animation: soulone 7s infinite;
+}
+
+@keyframes soulone{
+  0% {left: 300px;}
+  50% {left: 800px}
+  100% {left: 300px;}
+}
+
+#soul2{
+	animation: soultwo 4s infinite;
+}
+
+@keyframes soultwo{
+  0% {left: 900px;}
+  50% {left: 600px;}
+  100% {left:900px;}
+}
+
+#soul3{
+	animation: soultwo 3s infinite;
+}
+
+@keyframes soulthree{
+  0% {left: 500px;}
+  50% {left: 700px;}
+  100% {left:500px;}
+}
+
+#soul4{
+	animation: soultwo 10s infinite;
+}
+
+@keyframes soulfour{
+  0% {left: 1000px;}
+  50% {left: 400px;}
+  100% {left:1000px;}
+}

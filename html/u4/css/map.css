@@ -1,0 +1,135 @@
+body{
+	background-color: black;
+	margin:0;
+}
+
+@font-face{
+	font-family: Unifraktur;
+	src: url(../assets/fonts/UnifrakturMaguntia-Regular.ttf);
+}
+
+@font-face{
+	font-family: Fruktur;
+	src: url(../assets/fonts/Fruktur-Regular.ttf);
+}
+
+@font-face{
+	font-family: FleurDeLeah;
+	src: url(../assets/fonts/FleurDeLeah-Regular.ttf);
+}
+
+@font-face{
+	font-family: Shrikhand;
+	src: url(../assets/fonts/Shrikhand-Regular.ttf);
+}
+
+@font-face{
+	font-family: BerkshireSwash;
+	src: url(../assets/fonts/BerkshireSwash-Regular.ttf);
+}
+
+@font-face{
+	font-family: RockSalt;
+	src: url(../assets/fonts/RockSalt-Regular.ttf);
+}
+
+@font-face{
+	font-family: IMFellEnglish;
+	src: url(../assets/fonts/IMFellEnglish-Regular.ttf);
+}
+
+@font-face{
+	font-family: RubikBeastly;
+	src: url(../assets/fonts/RubikBeastly-Regular.ttf);
+}
+
+@font-face{
+	font-family: PressStart2P;
+	src: url(../assets/fonts/PressStart2P-Regular.ttf);
+}
+
+@font-face{
+	font-family: Creepster;
+	src: url(../assets/fonts/Creepster-Regular.ttf);
+}
+
+#one{
+	font-family: Fruktur;
+	background-image: url(../assets/img/limbo.jpg);
+}
+
+#two{
+	font-family: FleurDeLeah;
+	background-image: url(../assets/img/lust.jpg);
+}
+
+#three{
+	font-family: Shrikhand;
+	background-image: url(../assets/img/gluttony.jpg);
+}
+
+#four{
+	font-family: BerkshireSwash;
+	background-image: url(../assets/img/greed.jpg);
+}
+
+#five{
+	font-family: RockSalt;
+	background-image: url(../assets/img/anger.jpg);
+}
+
+#six{
+	font-family: IMFellEnglish;
+	background-image: url(../assets/img/heresy.jpg);
+}
+
+#seven{
+	font-family: RubikBeastly;
+	background-image: url(../assets/img/violence.jpg);
+}
+
+#eight{
+	font-family: PressStart2P;
+	background-image: url(../assets/img/fraud.jpg);
+}
+
+#nine{
+	font-family: Creepster;
+	background-image: url(../assets/img/treachery.jpg);
+}
+
+#home{
+	font-family: Unifraktur;
+	background-image: url(../assets/img/home.jpg);
+}
+
+a:link, a:visited{
+	color:#ff5d8f;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: white;
+  	text-shadow: 2px 2px 8px #ff5d8f;
+  	text-decoration: none;
+  	font-size:60px;
+  	cursor:help;
+}
+
+div {
+  	width: 400px;
+  	height: 100px;
+  	transition: width 2s, height 2s;
+  	padding:30px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:50px;
+	text-transform: uppercase;
+}
+
+div:hover {
+	width:100vw;
+	height:200px;
+}

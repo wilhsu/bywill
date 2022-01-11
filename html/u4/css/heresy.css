@@ -1,0 +1,49 @@
+a:link{color:#008000;text-decoration: none;}
+a:visited{color:#008000;text-decoration: none;}
+a:hover{color:white;text-decoration: line-through;}
+
+@font-face{
+	font-family: IMFellEnglish;
+	src: url(../assets/fonts/IMFellEnglish-Italic.ttf);
+}
+
+h1{
+	font-family: IMFellEnglish;
+	font-size:200px;
+	text-align: center;
+	color: #008000;
+}
+
+body{
+	margin:0;
+	background-color: #e6853a;
+}
+
+#virgil{
+  position:sticky;
+  bottom:0;
+  top:0;
+  width:30%;
+  left:10px;
+  display:block;
+  z-index: 1;
+}
+
+p{
+  width:35%;
+  text-align: right;
+  color:white;
+  margin-left: auto;
+  font-family: monospace;
+  font-size:25px;
+  padding:30px;
+  z-index: 0;
+  cursor:help;
+}
+
+.img{
+	width:20%;
+  	left:500px;
+  	position: relative;
+  	cursor:help;
+}

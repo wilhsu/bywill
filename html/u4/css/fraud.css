@@ -1,0 +1,153 @@
+a:link{color:#14591d;text-decoration: none;}
+a:visited{color:#14591d;text-decoration: none;}
+a:hover{color:white;text-decoration: line-through;}
+
+@font-face{
+	font-family: PressStart2P;
+	src: url(../assets/fonts/PressStart2P-Regular.ttf);
+}
+
+h1{
+	font-family: PressStart2P;
+	font-size:200px;
+	text-align: center;
+	color:#14591d;
+}
+
+body{
+	margin:0;
+	background-image:linear-gradient(#CC6323,#D90769,#805135,#8C0869,#FF7C2C,#F2A20C,#803E16,#F27F1B,#FFC8A7,#F23E2E) ;
+}
+
+p{
+  width:35%;
+  text-align: right;
+  color:white;
+  margin-left: auto;
+  font-family: monospace;
+  font-size:25px;
+  padding:30px;
+  z-index: 0;
+  cursor:help;
+}
+
+.img{
+	width:17%;
+	position:relative;
+	cursor:help;
+	left:500px;
+}
+
+#virgil{
+  position:sticky;
+  bottom:0;
+  top:0;
+  width:30%;
+  left:10px;
+  display:block;
+  z-index: 1;
+}
+
+#soul1{
+	width:20%;
+	display:block;
+	margin-left: auto;
+}
+
+#whip{
+	width:20%;
+	position:relative;
+	animation-timing-function:linear;
+	animation-direction:alternate;
+	animation: whip 1s infinite;
+	bottom:250px;
+}
+
+@keyframes whip{
+	0% {left:800px;}
+	100% {left:1000px;}
+}
+
+#soul2{
+	width:15%;
+	display:block;
+	animation-timing-function:initial;
+	animation-direction:alternate;
+	animation: soultwo 5s infinite;
+}
+
+@keyframes soultwo{
+	0%{left:2000px;}
+	100%{left:-500px;}
+}
+
+#soul3{
+	width:12%;
+	display:block;
+	animation-timing-function:linear;
+	animation-direction:alternate;
+	animation: soulthree 7s infinite;
+}
+
+@keyframes soulthree{
+	0%{left:2000px;}
+	100%{left:-1000px;}
+}
+
+#soul4{
+	width:16%;
+	display:block;
+	animation-timing-function:linear;
+	animation-direction:alternate;
+	animation: soultwo 4s infinite;
+}
+
+#soul5{
+	display:block;
+	animation-timing-function:linear;
+	animation-direction:alternate;
+	animation: soulfive 10s infinite;
+}
+
+@keyframes soulfive{
+	0%{left:-200px;}
+	50%{left:1000px;}
+	100%{left:-200px;}
+}
+
+
+#soul6{
+	display:block;
+	animation-timing-function:linear;
+	animation-direction:alternate;
+	animation: soulfive 15s infinite;
+}
+
+#soul7{
+	width:12%;
+	display:block;
+	animation-timing-function:linear;
+	animation-direction:alternate;
+	animation: soulfive 10s infinite;
+}
+
+#soul8{
+	width:8%;
+	display:block;
+	animation-timing-function:linear;
+	animation-direction:alternate;
+	animation: soulfive 7s infinite;
+}
+
+#soul9{
+	width:10%;
+	display:block;
+	animation-timing-function:linear;
+	animation-direction:alternate;
+	animation: soulfive 12s infinite;
+}
+
+
+
+
+

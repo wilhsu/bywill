@@ -1,0 +1,67 @@
+a:link{color:#a4161a;text-decoration: none;}
+a:visited{color:#a4161a;text-decoration: none;}
+a:hover{color:white;text-decoration: line-through;}
+
+.bg {
+  z-index: 0;
+  width: 100vw;
+  height: 500vh;
+  background: red;
+  animation: limbo 3s infinite;
+  animation-direction: alternate;
+}
+
+#font-face{
+	font-family: Fruktur;
+	src: url(../assets/fonts/Fruktur-Regular.ttf);
+}
+
+h1{
+	font-family: Fruktur;
+ 	font-size:300px;
+  color:#a4161a;
+  padding:50px;
+  position: relative;
+  margin: auto;
+  cursor:help;
+}
+
+@keyframes limbo {
+  from {background-color: #463f3a;}
+  to {background-color: #8a817c;}
+}
+
+#virgil{
+  position:sticky;
+  bottom:0;
+  top:0;
+  width:30%;
+  left:10px;
+  display:block;
+  z-index: 1;
+}
+
+p{
+  width:35%;
+  text-align: right;
+  color:white;
+  margin-left: auto;
+  font-family: monospace;
+  font-size:25px;
+  padding:30px;
+  z-index: 0;
+  cursor:help;
+}
+
+.img{
+  width:12%;
+  left:150px;
+  position: relative;
+  cursor:help;
+}
+
+body{
+	margin:0;
+	align-content: center;
+	text-align: center;
+}

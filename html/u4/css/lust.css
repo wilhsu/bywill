@@ -1,0 +1,84 @@
+a:link{color:#d44d5c;text-decoration: none;}
+a:visited{color:#d44d5c;text-decoration: none;}
+a:hover{color:white;text-decoration: line-through;}
+
+@font-face{
+	font-family: FleurDeLeah;
+	src: url(../assets/fonts/FleurDeLeah-Regular.ttf);
+}
+
+body{
+	background-color: #E3B5A4;
+	margin:0;
+}
+
+h1{
+	font-family: FleurDeLeah;
+	font-size: 250px;
+	letter-spacing: 70px;
+	text-align: center;
+	color:#d44d5c;
+	padding:10px;
+}
+
+#virgil{
+  position:sticky;
+  bottom:0;
+  top:0;
+  width:30%;
+  left:10px;
+  display:block;
+  z-index: 1;
+}
+
+p{
+  width:35%;
+  text-align: right;
+  color:white;
+  margin-left: auto;
+  font-family: monospace;
+  font-size:25px;
+  padding:30px;
+  z-index: 0;
+  cursor:help;
+}
+
+.img{
+  width:12%;
+  left:450px;
+  position: relative;
+  cursor:help;
+}
+
+#minos{
+  width:20%;
+  right:150px;
+  position: relative;
+  cursor:help;
+  display: block;
+  margin-left: auto;
+}
+
+
+div { 
+    width: 100%; 
+    height: 100%;
+     
+    top: 0; 
+    left: 0; 
+    background-image: url(https://media.geeksforgeeks.org/wp-content/uploads/20200828184719/rain-300x300.png); 
+    animation: rain 0.8s linear infinite; 
+    opacity: 0; 
+}
+
+@keyframes rain { 
+    0% { 
+        background-position: 0 0; 
+        opacity: 0.4; 
+    } 
+
+    100% { 
+        background-position: 10% 100%; 
+        opacity: 1; 
+    } 
+}
